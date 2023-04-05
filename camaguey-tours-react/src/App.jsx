@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "/style.css";
 import HomeLayout from "./pages/HomeLayout";
 
 function App() {
