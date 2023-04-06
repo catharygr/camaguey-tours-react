@@ -54,7 +54,7 @@ export default function Header({ color }) {
       </div>
       <div>
         <Link to="/">
-          <p className={`fs-700 logo-text ${color} text-shadow-pink`}>
+          <p className={`fs-700 logo-text ${color} text-shadow-blue`}>
             Camagüey Tours
           </p>
         </Link>
