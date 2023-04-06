@@ -234,8 +234,8 @@ body,
   box-shadow: 5px 5px 0px hsl(var(--color-shadow-pink));
 }
 
-.box-shadow-blue {
-  box-shadow: 5px 5px 0px hsl(var(--color-shadow-blue));
+.box-shadow-green {
+  box-shadow: 5px 5px 0px hsl(var(--color-shadow-green));
 }
 
 /* *********************************** */
