@@ -4,7 +4,7 @@ import Subselect from "../componentes/Subselect";
 import CardProduct from "../componentes/CardProduct";
 import data from "../data";
 
-export default function MtbLayout() {
+export default function Enjoy() {
   const props = {
     to1: "single",
     to2: "multi",

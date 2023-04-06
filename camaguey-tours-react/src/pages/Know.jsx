@@ -6,11 +6,11 @@ import { useSearchParams } from "react-router-dom";
 
 export default function SkiLayout() {
   const props = {
-    to1: "jahorina",
-    to2: "bjelasnica",
-    btn1: "Jahorina",
-    btn2: "Bjelasnica",
-    title: "Elige tu montaña",
+    to1: "camaguey",
+    to2: "santalucia",
+    btn1: "Camagüey",
+    btn2: "Playa  Santa Lucia",
+    title: "Elige tu opción",
   };
 
   // eslint-disable-next-line no-unused-vars
@@ -19,7 +19,7 @@ export default function SkiLayout() {
   console.log(typeFilter);
 
   const dataFilter = data.filter((product) => {
-    if (!typeFilter && product.category === "esqui") {
+    if (!typeFilter && product.category === "conocer") {
       return product;
     } else if (typeFilter === product.type) {
       return product;

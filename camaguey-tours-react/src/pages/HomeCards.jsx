@@ -22,11 +22,11 @@ export default function HomeCards() {
       url: "/disfrutar",
       imgUrl: "/assets/images/santa-lucia.jpg",
       description:
-        "¿Quiere probar Sarajevo? Obtenga nuestro recorrido y sepa qué y dónde comer. Todo reservado con antelación, desayuno, almuerzo, cena. Y dulces.",
+        "¿Quieres probar Camagüey? Obtenga nuestro recorrido y sepa qué y dónde comer. Todo reservado con antelación, desayuno, almuerzo, cena. Y dulces.",
     },
     {
       title: "Visita todos los lugares históricos importantes.",
-      url: "/caminar",
+      url: "/visitar",
       imgUrl: "/assets/images/camaguey-ciudad.png",
       description:
         "No pierdas tiempo buscando lugares importantes, obtén nuestras guías detalladas con navegación GPS...",
