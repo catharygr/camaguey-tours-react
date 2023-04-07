@@ -6,12 +6,12 @@ export default function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-grid">
-        <div className="hero-fondo box-shadow-green"></div>
+        <div className="hero-fondo box-shadow-pink"></div>
         <div className="hero-text">
           <h2 className="ff-title linea-text color-white">
             Las mejores guías gps de aventura alrededor de la ciudad de:
           </h2>
-          <h2 className="ff-title color-blue linea-text hero-text-title rotate-sarajevo">
+          <h2 className="ff-title color-pink linea-text hero-text-title rotate-sarajevo">
             Camagüey
           </h2>
         </div>

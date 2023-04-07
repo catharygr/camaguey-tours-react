@@ -7,8 +7,8 @@ import Footer from "../componentes/Footer";
 export default function ProductLayout() {
   return (
     <div className="background-color-products">
-      <div className="home-layout home-layout-pink">
-        <Header color="color-white" />
+      <div className="home-layout home-layout-blue">
+        <Header color="color-orange" />
         <Outlet />
         <Banner
           bannerType={{
