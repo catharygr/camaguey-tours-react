@@ -18,7 +18,7 @@ export default function ProductDetails() {
     imgUrl2,
   } = findProduct;
 
-  console.log(heroTitle);
+  console.log(findProduct);
   return (
     <>
       <HeroProducts title={heroTitle} price={price} text={heroText} />

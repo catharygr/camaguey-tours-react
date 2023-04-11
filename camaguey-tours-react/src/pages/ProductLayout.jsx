@@ -15,8 +15,8 @@ export default function ProductLayout() {
             color: "blue",
             title: "50% de descuento",
             description:
-              "Guía de esquí habilitado para GPS. Todos los alojamientos, las pistas. DOS montañas COMBO, Jahorina y Bjelašnica...",
-            imgUrl: "/assets/images/ski-card.jpg",
+              "Guía habilitada para GPS. Todos los alojamientos, visita al casco histórico. Dos oportunidades, Ciudad y playa...",
+            imgUrl: "/assets/images/.jpg",
             productId: "1",
           }}
         />
