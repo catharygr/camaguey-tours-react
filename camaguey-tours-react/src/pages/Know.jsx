@@ -9,7 +9,7 @@ export default function SkiLayout() {
     to1: "camaguey",
     to2: "santalucia",
     btn1: "Camagüey",
-    btn2: "Playa  Santa Lucia",
+    btn2: "Playa Santa Lucia",
     title: "Elige tu opción",
   };
 

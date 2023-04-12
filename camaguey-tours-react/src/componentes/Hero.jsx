@@ -19,8 +19,8 @@ export default function Hero() {
           <h3 className="color-white">Elige tu pasión</h3>
           <div className="hero-btn-container">
             <NavBtn pathTo="conocer" title="Conocer" color="green" />
-            <NavBtn pathTo="caminar" title="Caminar" color="green" />
             <NavBtn pathTo="disfrutar" title="Disfrutar" color="green" />
+            <NavBtn pathTo="caminar" title="Caminar" color="green" />
           </div>
           <NavLink to="/" className="underline">
             Limpiar filtro

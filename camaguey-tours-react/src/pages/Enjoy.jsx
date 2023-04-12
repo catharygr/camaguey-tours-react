@@ -18,7 +18,7 @@ export default function Enjoy() {
   console.log(typeFilter);
 
   const dataFilter = data.filter((product) => {
-    if (!typeFilter && product.category === "bike") {
+    if (!typeFilter && product.category === "disfrutar") {
       return product;
     } else if (typeFilter === product.type) {
       return product;

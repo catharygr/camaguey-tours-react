@@ -19,7 +19,7 @@ export default function WalkLayout() {
   console.log(typeFilter);
 
   const dataFilter = data.filter((product) => {
-    if (!typeFilter && product.category === "walk") {
+    if (!typeFilter && product.category === "caminar") {
       return product;
     } else if (typeFilter === product.type) {
       return product;

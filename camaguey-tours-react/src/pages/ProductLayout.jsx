@@ -16,7 +16,7 @@ export default function ProductLayout() {
             title: "50% de descuento",
             description:
               "Guía habilitada para GPS. Todos los alojamientos, visita al casco histórico. Dos oportunidades, Ciudad y playa...",
-            imgUrl: "/assets/images/.jpg",
+            imgUrl: "/assets/images/playa-card.jpg",
             productId: "1",
           }}
         />

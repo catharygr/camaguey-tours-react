@@ -15,7 +15,7 @@ export default [
     category: "conocer",
     type: "camaguey",
     imgUrl: "/assets/images/1-1.jpg",
-    imgUrl2: "/assets/images/products/1-2.jpg",
+    imgUrl2: "/assets/images/1-2.jpg",
   },
   {
     id: "2",
@@ -52,13 +52,13 @@ export default [
     price: "40",
     category: "conocer",
     type: "camagüey",
-    imgUrl: "/assets/images/conocer2.jpg",
+    imgUrl: "/assets/images/santa-lucia2.jpg",
     imgUrl2: "/assets/images/conocer3.jpg",
   },
 
   {
     id: "4",
-    title: "Oferta del 20% de descuento",
+    title: "Conocer con Guía GPS para Santa Lucia",
     subtitle: "Guía habilitado para GPS, todo incluido.",
     hero: {
       heroTitle: "Santa Lucia",
@@ -70,7 +70,7 @@ export default [
     description:
       "Este espectacular ecosistema marino-costero se ha convertido en uno de los lugares predilectos para aquellos turistas que, además de diversión y adrenalina, valoran la tranquilidad y el confort que encuentran en sus playas solitarias y pacíficas. ¿Qué esperas para descubrir todo lo que Playa Santa Lucía tiene para ti? Con sus 20 km de playas color esmeralda, una preciosa arena de origen coralino y el cielo siempre despejado, Playa Santa Lucía cuenta con todos los atractivos necesarios para convertirse en tu nuevo lugar favorito, si de paisajes marinos se trata. Por tanto, una de las principales recomendaciones para todo turista es disfrutar del amanecer o el atardecer frente a sus costas, cuando ocurre un espectáculo indescriptible de tonalidades y matices, tanto en el mar como en el cielo. Otro atractivo para los amantes del ecoturismo es disfrutar del panorama natural protagonizado por los maravillosos flamencos rosados, los cuales pasean todo el día por algunas costas de Playa Santa Lucía, luciendo su increíble plumaje a la vista de todos. No pierdas la oportunidad de hacer postales únicas con estas hermosas especies durante tus vacaciones o escapada.",
     price: "25",
-    category: "disfrutar",
+    category: "conocer",
     type: "santalucia",
     imgUrl: "/assets/images/santa-lucia1.jpg",
     imgUrl2: "/assets/images/santa-lucia2.jpg",
@@ -88,7 +88,7 @@ export default [
     description:
       "Los resorts más emblemáticos y los hoteles más lujosos en Playa Santa Lucía son: Hotel Gran Club Santa Lucía, Hotel Club Amigo Mayanabo, Hotel Club Amigo Caracol y Hotel Brisas Santa Lucía, todos con 3 y 4 estrellas, siendo especialistas en brindar las comodidades que cualquier turista desea disfrutar en sus vacaciones. Suelen ser hoteles Todo Incluido que ofrecen los mejores servicios para una estancia inolvidable en este paradisíaco destino de Cuba. También podrás economizar tu presupuesto rentando una habitación sencilla en alguna casa de la zona, donde serás atendido con la calidez y respeto que caracteriza a los cubanos. De esta forma, no solo pagarás mucho menos que en un hotel de lujo, sino que podrás convivir de cerca con la cultura y estilo de vida de los habitantes. Además, cada hotel o resort en Playa Santa Lucía ofrece planes de entretenimiento para sus huéspedes, tales como clases privadas de buceo, clases de baile, voleibol de playa y mucho más. También podrás agendar sesiones de relax con masajes y tratamientos de belleza; o simplemente disfrutar de una caminata tranquila a la orilla del mar. ",
     price: "25",
-    category: "disfrutar",
+    category: "conocer",
     type: "santalucia",
     imgUrl: "/assets/images/santa-lucia3.jpg",
     imgUrl2: "/assets/images/santa-lucia4.jpg",
@@ -108,14 +108,14 @@ export default [
     description:
       "Si bien Playa Santa Lucía ofrece tranquilidad y relax a sus visitantes, no deja de lado la emoción de los deportes acuáticos y las aventuras en el mar. De hecho, este destino cuenta con gran popularidad entre los turistas más osados, quienes además de practicar buceo, snorkel, kitesurf y motonáutica; literalmente, pueden nadar con tiburones entre los arrecifes coralinos que bordean Playa Santa Lucía. Esto es posible gracias al Centro Internacional de Buceo Shark´s Friends, el cual cuenta con permisos gubernamentales y todas las medidas de seguridad necesarias. Para aquellos turistas que desean experiencias menos intensas, pero igualmente memorables, podrán contratar paseos en catamarán o excursiones temáticas en las inmediaciones de Playa Santa Lucía. Los principales atractivos de estos paseos guiados son la observación de flamencos en su hábitat natural, el espectáculo de estrellas de mar, pesca deportiva o visitas a playas vírgenes y despobladas.",
     price: "40",
-    category: "disfrutar",
+    category: "conocer",
     type: "santalucia",
     imgUrl: "/assets/images/santa-lucia5.jpg",
     imgUrl2: "/assets/images/santa-lucia6.jpg",
   },
   {
     id: "10",
-    title: "Caminar en Camagüey",
+    title: "Disfrutar en Camagüey",
     subtitle: "Guías GPS de un día, 20 km de ciudad",
     hero: {
       heroTitle: "Camagüey",
@@ -126,14 +126,14 @@ export default [
     description:
       " Fue uno de los siete asentamientos (villas) originales fundados en Cuba por los españoles. El asentamiento fue trasladado tierra adentro en 1528 al sitio de un pueblo taíno llamado Camagüey. Entre 1747 y 1753, Luis de Unzaga, entonces capitán gobernador de Puerto Príncipe, rehabilitó la ciudad, que se deterioró mucho en la Guerra de la Oreja de Jenkins, y Unzaga reconstruyó la iglesia de La Merced. Fue en 1898 cuando recibió el nombre actual de Camagüey, como resultado de la independencia de España. El nombre indígena ya se usaba para referirse a la región El Camagüey en referencia al jefe local Cacique Camagüebax, que ejerció su mando entre los ríos Tínima y Hatibonico y fue aprobado en esa fecha tanto para la ciudad como para la provincia que había sido creada en 1878 como una región militar para la república en arma.La nueva ciudad se construyó con un confuso esparable de callejones sinuosos. Hay muchos callejones ciegos y calles bifurcadas que conducen a plazas de diferentes tamaños. Una explicación es que esto se hizo por diseño, para hacer que la ciudad sea más fácil de defender de cualquier asaltante; según la misma versión, la razón por la que solo hay una salida de la ciudad fue que si los piratas regresan y logran entrar en la ciudad, sería posible que los habitantes locales los atraparan y los mataran.",
     price: "25",
-    category: "caminar",
+    category: "disfrutar",
     type: "single",
     imgUrl: "/assets/images/caminar1.jpg",
     imgUrl2: "/assets/images/caminar2.jpg",
   },
   {
     id: "11",
-    title: "Caminar en Santa Lucia",
+    title: "Disfrutar en Santa Lucia",
     subtitle: "Guías GPS de un día, 60 km de playas",
     hero: {
       heroTitle: "Santa Lucia",
@@ -144,17 +144,17 @@ export default [
     description:
       "La montaña Bjelasnica, ubicada en Bosnia y Herzegovina, es un destino popular para los entusiastas del ciclismo de montaña. La montaña ofrece una variedad de senderos adecuados para diferentes niveles de experiencia y habilidades, desde paseos fáciles y relajantes hasta rutas más desafiantes y técnicas. Algunos de los senderos populares en la montaña Bjelasnica incluyen el sendero XC, que ofrece un paseo panorámico a través de bosques y praderas, y el sendero DH, que es más desafiante e incluye saltos, caídas y descensos pronunciados. El parque de bicicletas en la montaña ofrece una variedad de características, que incluyen una pista de bombeo, puentes de madera y saltos. El paisaje de la montaña Bjelasnica también es impresionante, con impresionantes vistas de las montañas y los valles circundantes. La montaña también alberga una variedad de flora y fauna, incluidas flores silvestres, aves y pequeños mamíferos. En general, el ciclismo de montaña en la montaña Bjelasnica es una excelente manera de experimentar la belleza de la región mientras disfruta de una actividad al aire libre llena de adrenalina.",
     price: "25",
-    category: "caminar",
+    category: "disfrutar",
     type: "single",
-    imgUrl: "/assets/images/caminar3.jpg",
-    imgUrl2: "/assets/images/caminar4.jpg",
+    imgUrl: "/assets/images/santa-lucia4.jpg",
+    imgUrl2: "/assets/images/santa-lucia5.jpg",
   },
   {
     id: "12",
     title: "Disfrutar en Santa Lucia",
     subtitle: "Guías GPS de varios días",
     hero: {
-      heroTitle: "Playas",
+      heroTitle: "Santa Lucia",
       heroText: "Aventura de varios días por toda la playa",
     },
     summary:
@@ -162,10 +162,10 @@ export default [
     description:
       "Está localizada al sur del Canal Viejo de Bahamas, en medio de un entorno semidesolado, natural, virgen y paradisíaco. Tiene 20 kilómetros de playa arenosa de origen coralino.El clima es cálido como en casi toda la isla y sus aguas son tibias. La temperatura media anual oscila entre 28,7 °C en agosto y 23 °C en febrero. La playa posee una gigantesca barrera coralina, que la convierte en una gran piscina natural. Forma parte de la barrera arrecifal del norte del archipiélago cubano, que se extiende desde Varadero, pasando por los Jardines del Rey hasta el extremo oeste de la costa norte de la provincia de Camagüey. Entre la barrera y la línea de costa, el mar alcanza una profundidad máxima de 3 metros. Los corales algergan una variada y nutrida masa de peces crustáceos y moluscos de vistosos colores, como el pez payaso, el pez loro, el cangrejo centolla, langostas, entre otros.La flora es la típica de las playas del Caribe, con numerosos cocoteros, uva caletas, boniato de playa y algunas casuarinas. La fauna fuertemente vinculada con el mar la componen varias especies de aves: flamencos, gaviotas, pelícanos, reptiles como las iguanas, y los numerosos peces del arrecife.",
     price: "40",
-    category: "caminar",
+    category: "disfrutar",
     type: "multi",
-    imgUrl: "/assets/images/caminar5.jpg",
-    imgUrl2: "/assets/images/1-2.jpg",
+    imgUrl: "/assets/images/santa-lucia2.jpg",
+    imgUrl2: "/assets/images/santa-lucia1.jpg",
   },
   {
     id: "20",
@@ -180,7 +180,7 @@ export default [
     description:
       "Este archipiélago caribeño cuenta con una riqueza cultural innegable, y uno de sus puntos fuertes, sin duda, es su gastronomía. Si visitas Cuba, no puedes abandonar el país sin haber probado antes los típicos platos cubanos, y a continuación, te hacemos una lista de los 12 platos imprescindibles que no te puedes perder. La comida típica cubana está influenciada por indígenas de África, árabes, chinos, portugueses y culturas españolas. A lo largo de los siglos, todos ellos introdujeron especias como el ajo, el comino, el orégano, el laurel. La gente de Cuba utiliza carne, verduras frescas y frutas, siendo todos ellos los integrantes más importantes en los platos de comida cubana. Ropa Vieja es el plato típico cubano más representativo. Su nombre proviene de su aspecto. El origen exacto de esta comida es un misterio, algunos dicen que llegó a Cuba de las Islas Canarias, aunque no hay referencias históricas de este hecho. Es uno de los platos preferidos en Cuba. El arroz para este plato es el arroz de grano corto de estilo Valenciano, el mismo que se utiliza para la paella. A diferencia de ésta no se usa el tradicional azafrán sino que en su lugar usan el Achiote Petróleo, para dar la coloración amarilla. Ningún otro plato típico cubano, es mejor representado que los Moros y Cristianos. Los frijoles negros son servidos con arroz blanco esponjoso. Algunos cubanos sirven arroz con frijoles separados, y otros lo mezclan. Puedes pedirlo de ambas formas.",
     price: "25",
-    category: "walk",
+    category: "caminar",
     type: "food",
     imgUrl: "/assets/images/comidacubana01.jpg",
     imgUrl2: "/assets/images/comidacubana02.jpg",
@@ -196,30 +196,29 @@ export default [
     summary:
       "La escena culinaria de la ciudad es diversa y ofrece algo para todos, ya sea que busque platos de carne, opciones vegetarianas o dulces.",
     description:
-      "Sarajevo, la capital de Bosnia y Herzegovina, tiene una rica tradición culinaria que refleja su herencia otomana y austrohúngara. Algunos de los platos tradicionales que puedes encontrar en Sarajevo incluyen: Cevapi: Estos son pequeños embutidos hechos de carne picada de res o cordero, típicamente servidos con pan de pita y cebollas. Burek: Un pastel salado elaborado con masa filo y relleno de carne, queso o espinacas. Dolma: verduras rellenas como pimientos u hojas de parra rellenas con una mezcla de arroz, hierbas y, a veces, carne. Bosanski lonac: un estofado abundante de carne y verduras que se suele preparar con cordero, patatas, zanahorias y cebollas. Klepe: similar a los ravioles italianos, los klepe son pequeñas albóndigas rellenas de carne o queso y se sirven en un caldo. Sarajevski sahan: Un plato que consiste en albóndigas al horno, papas y cebollas en salsa de tomate. Estos son solo algunos ejemplos de los deliciosos platos tradicionales que puedes probar en Sarajevo. La escena culinaria de la ciudad es diversa y ofrece algo para todos, ya sea que busque platos de carne, opciones vegetarianas o dulces.",
+      "Este archipiélago caribeño cuenta con una riqueza cultural innegable, y uno de sus puntos fuertes, sin duda, es su gastronomía. Si visitas Cuba, no puedes abandonar el país sin haber probado antes los típicos platos cubanos, y a continuación, te hacemos una lista de los 12 platos imprescindibles que no te puedes perder. La comida típica cubana está influenciada por indígenas de África, árabes, chinos, portugueses y culturas españolas. A lo largo de los siglos, todos ellos introdujeron especias como el ajo, el comino, el orégano, el laurel. La gente de Cuba utiliza carne, verduras frescas y frutas, siendo todos ellos los integrantes más importantes en los platos de comida cubana. Ropa Vieja es el plato típico cubano más representativo. Su nombre proviene de su aspecto. El origen exacto de esta comida es un misterio, algunos dicen que llegó a Cuba de las Islas Canarias, aunque no hay referencias históricas de este hecho. Es uno de los platos preferidos en Cuba. El arroz para este plato es el arroz de grano corto de estilo Valenciano, el mismo que se utiliza para la paella. A diferencia de ésta no se usa el tradicional azafrán sino que en su lugar usan el Achiote Petróleo, para dar la coloración amarilla. Ningún otro plato típico cubano, es mejor representado que los Moros y Cristianos. Los frijoles negros son servidos con arroz blanco esponjoso. Algunos cubanos sirven arroz con frijoles separados, y otros lo mezclan. Puedes pedirlo de ambas formas.",
     price: "25",
-    category: "walk",
+    category: "caminar",
     type: "food",
-    imgUrl: "/assets/images/bike-card.jpg",
-    imgUrl2: "/assets/images/bike-card.jpg",
+    imgUrl: "/assets/images/comidacubana03.jpg",
+    imgUrl2: "/assets/images/comidacubana04.jpg",
   },
   {
     id: "22",
-    title: "Postres en Sarajevo",
-    subtitle:
-      "Rica tradición culinaria que refleja su herencia otomana y austrohúngara",
+    title: "Postres en Camagüey",
+    subtitle: "Rica tradición culinaria que refleja la región central",
     hero: {
-      heroTitle: "Sarajevo",
+      heroTitle: "Camagüey",
       heroText: "Los mejores dulces en los mejores lugares. guia gps.",
     },
     summary:
-      "La dulce escena culinaria de Sarajevo es diversa y sabrosa, con muchos postres únicos y deliciosos para probar.",
+      "La dulce escena culinaria de Camagüey es diversa y sabrosa, con muchos postres únicos y deliciosos para probar.",
     description:
-      "Sarajevo, la capital de Bosnia y Herzegovina, tiene una rica tradición culinaria que combina varias influencias culturales de la región. Cuando se trata de delicias culinarias dulces, Sarajevo ofrece una amplia gama de postres y pasteles que son deliciosos y únicos. Uno de los dulces más famosos de Sarajevo es el baklava, un pastel hecho con capas de masa filo rellenas con nueces picadas y jarabe dulce. Baklava se puede encontrar en muchas panaderías y restaurantes de la ciudad y, a menudo, se sirve con una taza de café bosnio fuerte. Otro postre popular en Sarajevo es tufahija, que está hecho de manzanas escalfadas rellenas con una mezcla de nueces, azúcar y canela y se sirve con crema batida. Tufahija es un postre bosnio tradicional que normalmente se disfruta durante los meses de invierno. Un postre similar a la tufahija es el hurmasice, que son pequeños pasteles empapados en almíbar hechos con harina de sémola, azúcar y nueces. Estos pasteles suelen tener sabor a agua de rosas o vainilla y son un regalo popular durante Eid al-Fitr, una festividad que se celebra al final del Ramadán. Otro dulce bosnio tradicional es el klepe, que son pequeños pasteles con forma de bola de masa rellenos con mermelada de ciruela o pasta de membrillo y se sirven con una pizca de azúcar. Klepe se puede encontrar en muchas panaderías en todo Sarajevo y, a menudo, se sirve como un desayuno o merienda dulce. Otros dulces que se pueden encontrar en Sarajevo incluyen rahat lokum (delicia turca), halva (un dulce hecho con pasta de sésamo y azúcar) y pita sa jabukama (tarta de manzana). En general, la escena culinaria dulce de Sarajevo es diversa y sabrosa, con muchos postres únicos y deliciosos para probar.",
+      "Los dulces cubanos -más populares de Cuba- son fáciles de preparar en casa porque tienen pocos ingredientes que se pueden encontrar en todas las cocinas cubanas.  El arroz con leche es uno de los postres más típicos, de Cuba, porque tiene ingredientes sencillos y es muy fácil de preparar. El flan de leche es uno de los postres, de Cuba, más ricos que se disfruta en la isla. Uno de los dulces típicos, de Cuba, es el dulce de leche. De esta manera, con pocos ingredientes se consigue un postre delicioso.Además, como no necesita horno, se puede preparar en cualquier cocina con una olla y algo de tiempo. Sin duda, se trata de postres tradicionales de Cuba más sencillos y apetecibles. Una parte destacada de los postres cubanos es el dulce de coco rallado, conocido también como dulce de coco en almíbar o cocada. Con un sabor único, se ha convertido en una de los dulces más populares, en Cuba. Además, se consume frío y se puede acompañar con unas rebanadas de queso blanco. También, puede agregar a la mezcla algunas gotas de vainilla y clavos de olor o una rama de canela para aportarle más aroma. Otro postre cubano, fácil de hacer, es el pastel de guayaba siempre que se pueda disponer de masa de hojaldre. Asimismo, se suele consumir de merienda o desayuno, acompañados de café o un batido. Por eso, se considera uno de los postres caseros cubanos más comunes.",
     price: "25",
-    category: "walk",
+    category: "caminar",
     type: "food",
-    imgUrl: "/assets/images/bike-card.jpg",
-    imgUrl2: "/assets/images/bike-card.jpg",
+    imgUrl: "/assets/images/postres-cubanos.jpg",
+    imgUrl2: "/assets/images/postres-cubanos1.jpg",
   },
 ];

@@ -8,7 +8,14 @@ export default function HomeCards() {
       url: "/conocer",
       imgUrl: "/assets/images/conocer.jpg",
       description:
-        "Disfrute de Camagüey y su playa Santa Lucia, quedará a gusto con su cultura y deslumbramineto",
+        "Disfrute de Camagüey se quedará a gusto con su cultura y deslumbramineto",
+    },
+    {
+      title: "Disfrutar de la Playa Santa Lucia",
+      url: "/disfrutar",
+      imgUrl: "/assets/images/santa-lucia1.jpg",
+      description:
+        "¿Quieres disfrutar de una comida cerca de la playa? Obtenga nuestro recorrido y sepa qué y dónde comer. Todo reservado con antelación, desayuno, almuerzo, cena. Y dulces.",
     },
     {
       title: "Caminata por la ciudad de Camagüey",
@@ -18,15 +25,8 @@ export default function HomeCards() {
         "Más de 300 km de caminos panorámicos y naturaleza en Camagüey para uno o si te atreves para aventuras de varios días...",
     },
     {
-      title: "Disfrutar de la Playa Santa Lucia",
-      url: "/disfrutar",
-      imgUrl: "/assets/images/santa-lucia.jpg",
-      description:
-        "¿Quieres probar Camagüey? Obtenga nuestro recorrido y sepa qué y dónde comer. Todo reservado con antelación, desayuno, almuerzo, cena. Y dulces.",
-    },
-    {
       title: "Visita todos los lugares históricos importantes.",
-      url: "/visitar",
+      url: "/caminar",
       imgUrl: "/assets/images/camaguey-ciudad.png",
       description:
         "No pierdas tiempo buscando lugares importantes, obtén nuestras guías detalladas con navegación GPS...",

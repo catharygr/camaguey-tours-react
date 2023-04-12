@@ -18,8 +18,8 @@ function App() {
         <Route path="/" element={<HomeLayout />}>
           <Route index element={<HomeCards />} />
           <Route path="conocer" element={<Know />} />
-          <Route path="caminar" element={<Walk />} />
           <Route path="disfrutar" element={<Enjoy />} />
+          <Route path="caminar" element={<Walk />} />
         </Route>
         <Route path="products" element={<ProductLayout />}>
           <Route path=":id" element={<ProductDetails />} />

@@ -655,7 +655,7 @@ p {
   justify-content: center;
   gap: 1rem;
   padding: 2rem;
-  background-color: hsl(var(--color-pink), 0.9);
+  background-color: hsl(var(--color-blue), 0.9);
   border: 0.8rem solid hsl(var(--color-green));
   border-radius: 30px;
   text-align: center;
@@ -727,7 +727,7 @@ p {
   .details-container img {
     max-height: 20rem;
   }
-  .details-container p {
+  .details-container .parrafo {
     text-align: right;
     margin-left: 10rem;
     font-size: 1.15rem;
@@ -771,7 +771,7 @@ p {
     align-self: center;
     object-fit: cover;
   }
-  .details-container p {
+  .details-container .parrafo {
     grid-row: 3 / -1;
     grid-column: 2 / -1;
     text-align: right;
