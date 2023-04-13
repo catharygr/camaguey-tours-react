@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import data from "../data.js";
 import HeroProducts from "../componentes/HeroProducts";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
@@ -11,17 +11,25 @@ export default function ProductDetails() {
   );
 
   const descriptionMD = findProduct?.description.replace(/\\n\\n/g, "\n\n");
-  // const {
-  //   title,
-  //   subtitle,
-  //   hero: { heroTitle, heroText },
-  //   imgUrl,
-  //   price,
-  //   description,
-  //   imgUrl2,
-  // } = findProduct;
 
-  console.log(findProduct);
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const categ = findProduct?.category;
+
+  function backLinkText() {
+    if (categ === "conocer") {
+      return "conocer";
+    } else if (categ === "disfrutar") {
+      return "disfrutar";
+    } else if (categ === "caminar") {
+      return "caminar";
+    } else {
+      return "/";
+    }
+  }
+
   return (
     <>
       <HeroProducts
@@ -35,6 +43,10 @@ export default function ProductDetails() {
         <h3>{findProduct?.subtitle}</h3>
         <img src={findProduct?.imgUrl} alt={findProduct?.hero.heroText} />
         <div className="parrafo flow">
+          <Link
+            className="back-link color-black underline"
+            to="/"
+          >{`Regresar a ${backLinkText()}`}</Link>
           <ReactMarkdown>{descriptionMD}</ReactMarkdown>
         </div>
         <img src={findProduct?.imgUrl2} alt={findProduct?.hero.heroText} />

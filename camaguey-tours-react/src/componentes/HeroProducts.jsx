@@ -9,7 +9,7 @@ export default function HeroProducts({ title, text, price }) {
         <div className="hero-fondo box-shadow-pink"></div>
         <div className="hero-text">
           <h2 className="ff-title linea-text color-white">{text}</h2>
-          <h2 className="ff-title color-pink linea-text hero-text-title rotate-sarajevo">
+          <h2 className="ff-title color-blue linea-text hero-text-title rotate-sarajevo">
             {title}
           </h2>
         </div>
