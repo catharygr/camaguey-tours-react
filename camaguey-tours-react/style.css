@@ -103,7 +103,7 @@ display:revert; revert to element instead of attribute */
 :root {
   /* Colores */
   --color-green: 65, 89%, 73%;
-  --color-orange: 25, 98%, 55%;
+  --color-orange: 31, 83%, 68%;
   --color-pink: 302, 85%, 84%;
   --color-grey: 166, 17%, 71%;
   --color-blue: 174, 69%, 42%;
@@ -315,6 +315,11 @@ p {
 }
 
 .background-color-products {
+  background-color: hsl(var(--color-blue));
+  min-height: 100%;
+}
+
+.background-color-about {
   background-color: hsl(var(--color-blue));
   min-height: 100%;
 }
@@ -1028,6 +1033,35 @@ h1 {
     font-size: 1.3rem;
     padding-inline-end: 1rem;
   }
+}
+
+************************************
+/* Admin sección                        */
+/* ************************************ */
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.underline-admin {
+  border-bottom: 1px solid hsl(var(--color-white));
+  align-self: center;
+}
+
+.admin-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem;
+}
+
+.admin-nav > :not(:last-child) {
+  border-right: 2px solid hsl(var(--color-white));
+  padding-right: 0.5rem;
 }
 
 /* ************************************ */

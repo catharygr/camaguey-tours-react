@@ -20,11 +20,11 @@ export default function ProductDetails() {
 
   function backLinkText() {
     if (categ === "conocer") {
-      return "conocer";
+      return "/conocer";
     } else if (categ === "disfrutar") {
-      return "disfrutar";
+      return "/disfrutar";
     } else if (categ === "caminar") {
-      return "caminar";
+      return "/caminar";
     } else {
       return "/";
     }
@@ -45,8 +45,8 @@ export default function ProductDetails() {
         <div className="parrafo flow">
           <Link
             className="back-link color-black underline"
-            to="/"
-          >{`Regresar a ${backLinkText()}`}</Link>
+            to={backLinkText()}
+          >{`Regresar a ${findProduct?.category}`}</Link>
           <ReactMarkdown>{descriptionMD}</ReactMarkdown>
         </div>
         <img src={findProduct?.imgUrl2} alt={findProduct?.hero.heroText} />

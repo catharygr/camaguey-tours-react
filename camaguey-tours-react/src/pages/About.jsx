@@ -5,20 +5,20 @@ import CardHomePage from "../componentes/CardHomePage";
 
 export default function About() {
   return (
-    <div className="background-color-home">
+    <div className="background-color-about">
       <div className="about-layout home-layout-pink">
         <Header color="color-white" />
 
         <div className="form-container-about box-shadow-pink">
           <div className="form-contact">
-            <h1 className="ff-title fs-700 linea-text color-blue">
+            <h1 className="ff-title fs-700 linea-text color-white">
               Sobre este proyecto, stack tecnológico, problemas y soluciones
             </h1>
           </div>
         </div>
 
         <article className="about-container color-white">
-          <h1>Aprendiendo React y Firebase</h1>
+          <h1>Proyecto hecho con React React</h1>
           <h3>React 18, React router 6, CSS, HTML, Netlify.</h3>
           <div className="about-card">
             <CardHomePage
