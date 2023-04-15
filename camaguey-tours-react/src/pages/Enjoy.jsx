@@ -15,7 +15,6 @@ export default function Enjoy() {
   // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
   const typeFilter = searchParams.get("type");
-  console.log(typeFilter);
 
   const dataFilter = data.filter((product) => {
     if (!typeFilter && product.category === "disfrutar") {

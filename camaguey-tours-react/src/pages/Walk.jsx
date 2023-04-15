@@ -17,7 +17,6 @@ export default function WalkLayout() {
   const [searchParams, setSearchParams] = useSearchParams();
   const typeFilter = searchParams.get("type");
   console.log(typeFilter);
-
   const dataFilter = data.filter((product) => {
     if (!typeFilter && product.category === "caminar") {
       return product;

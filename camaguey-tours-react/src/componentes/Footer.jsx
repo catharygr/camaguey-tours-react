@@ -12,11 +12,11 @@ export default function Footer() {
         <NavBtn pathTo="/admin" color="pink" title="Panel admin" />
       )}
       <div>
-        <h3 className=" ff-title fs-700 color-white">
-          Hecho en 2023 por Bony & Cubi.
+        <h3 className=" ff-title fs-600 color-white">
+          Hecho en Canaria/2023 con mucho amor.
         </h3>
         <p className="fs-300">
-          Estamos buscando oportunidades de trabajo como desarrolladores junior.
+          Estoy buscando oportunidades de proyectos como desarrolladora junior.
         </p>
       </div>
     </div>
