@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import data from "../data.js";
 import HeroProducts from "../componentes/HeroProducts";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import data from "../data.js";
 
 export default function ProductDetails() {
   const params = useParams();
@@ -36,6 +36,7 @@ export default function ProductDetails() {
         title={findProduct?.hero.heroTitle}
         price={findProduct?.price}
         text={findProduct?.hero.heroText}
+        id={findProduct?.id}
       />
 
       <article className="details-container color-white">

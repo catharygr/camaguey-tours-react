@@ -51,7 +51,7 @@ export default [
       "En pleno corazón de Cuba se encuentra la pintoresca provincia de Camagüey, un lugar en el que la historia y la naturaleza coexisten de forma armoniosa y casi mágica. \n\n Visitándola podrás conocer sus hermosas playas, o recorrer sus calles y maravillarte con la elegante arquitectura de sus edificios y monumentos que recuerdan lo mejor de sus tiempos coloniales. La belleza de Camagüey ha logrado deslumbrar a miles de personas en todo el mundo, pero aún más su increíble centro histórico, el cual fue declarado Patrimonio Cultural de la Humanidad por la UNESCO desde el año 2008. \n\n Atrévete a conocer sus calles, plazas y callejones en tu próximo viaje. \n\n La ciudad de Camagüey es una introducción a la historia misma de Cuba y del Caribe. El Museo de San Juan de Dios, distintivo por erigirse en lo que era antes un hospital, es perfecto para tener un acercamiento al pasado de la localidad. \n\nCamagüey vio nacer a ilustres personajes cubanos, como el independentista Ignacio Agramonte, o el poeta Nicolás Guillén. En el Museo Casa Natal de Ignacio Agramonte, te adentrarás al pasado y conocerás un poco más de la vida de este ilustre personaje. \n\n Asimismo, podrás visitar la Casa Natal de Nicolás Guillén, lugar donde los libros del poeta son expuestos al público.",
     price: "40",
     category: "conocer",
-    type: "camagüey",
+    type: "camaguey",
     imgUrl: "/assets/images/santa-lucia2.jpg",
     imgUrl2: "/assets/images/conocer3.jpg",
   },
