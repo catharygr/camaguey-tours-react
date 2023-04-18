@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import Button from "./Button";
+import ButtonCart from "./ButtonCart";
 
 export default function Banner({ bannerType }) {
   const { color, title, description, imgUrl, productoId } = bannerType;
@@ -16,7 +16,7 @@ export default function Banner({ bannerType }) {
           className="btn-img-container"
           style={{ backgroundImage: `url(${imgUrl})` }}
         >
-          <Button
+          <ButtonCart
             className="color-black"
             color="green"
             title="Comprar"

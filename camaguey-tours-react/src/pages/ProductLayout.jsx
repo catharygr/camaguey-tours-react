@@ -17,7 +17,7 @@ export default function ProductLayout() {
             description:
               "Guía habilitada para GPS. Todos los alojamientos, visita al casco histórico. Dos oportunidades, Ciudad y playa...",
             imgUrl: "/assets/images/playa-card.jpg",
-            productId: "1",
+            productoId: "1",
           }}
         />
         <Footer />
