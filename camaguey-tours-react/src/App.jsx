@@ -9,7 +9,6 @@ import Enjoy from "./pages/Enjoy";
 import ProductLayout from "./pages/ProductLayout";
 import ProductDetails from "./pages/ProductDetails";
 import Contact from "./pages/Contact";
-import Login from "./pages/Login";
 import About from "./pages/About";
 import AdminLayout from "./pages/admin/AdminLayout";
 import AuthRequired from "./pages/admin/AuthRequired";
@@ -18,6 +17,7 @@ import Products from "./pages/admin/Products";
 import Income from "./pages/admin/Income";
 import CartLayout from "./pages/cart/CartLayout";
 import Cart from "./pages/cart/Cart";
+import Payment from "./pages/cart/Payment";
 
 function App() {
   return (
@@ -43,9 +43,10 @@ function App() {
             <Route path="ingresos" element={<Income />} />
           </Route>
         </Route>
-        <Route path="login" element={<Login />} />
+
         <Route path="cart" element={<CartLayout />}>
           <Route index element={<Cart />} />
+          <Route path="pago" element={<Payment />} />
         </Route>
 
         <Route path="sobre" element={<About />} />

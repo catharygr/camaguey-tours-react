@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import Button from "../../componentes/Button";
 import { ShoppingContext } from "../../api/ShopCartContext";
+import { Link } from "eslint-plugin-react";
 import data from "../../data";
 
 export default function Cart() {
@@ -111,11 +112,13 @@ export default function Cart() {
           <p>{formatter.format(total)}</p>
         </li>
       </ol>
-      <Button
-        isBtnDisabled={isDisabled}
-        color="green"
-        title={isDisabled ? "Carro vacio" : "Datos de pagos"}
-      />
+      <Link className="payment-btn" to="pago">
+        <Button
+          isBtnDisabled={isDisabled}
+          color="green"
+          title={isDisabled ? "Carro vacio" : "Datos de pagos"}
+        />
+      </Link>
     </div>
   );
 }

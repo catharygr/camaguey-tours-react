@@ -18,7 +18,7 @@ export default function About() {
         </div>
 
         <article className="about-container color-white">
-          <h1>Proyecto hecho con React React</h1>
+          <h1>Proyecto hecho con React</h1>
           <h3>React 18, React router 6, CSS, HTML, Netlify.</h3>
           <div className="about-card">
             <CardHomePage
