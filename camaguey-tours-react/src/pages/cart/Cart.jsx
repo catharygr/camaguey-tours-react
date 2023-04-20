@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import Button from "../../componentes/Button";
 import { ShoppingContext } from "../../api/ShopCartContext";
-import { Link } from "eslint-plugin-react";
+import { Link } from "react-router-dom";
 import data from "../../data";
 
 export default function Cart() {
