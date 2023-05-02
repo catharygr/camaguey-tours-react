@@ -1,4 +1,4 @@
-# Proyecto Sarajevo Tours página web de una imaginaria aplicación sobre una tienda online de venta de guias a turistas
+# Proyecto Camagüey Tours página web de una imaginaria aplicación sobre una tienda online de venta de guias a turistas
 
 ## Lugar de trabajo
 
